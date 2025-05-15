@@ -1,0 +1,13 @@
+http://{ip:port}
+http://
+http://
+http://
+http://
+http://
+http://
+http://
+http://
+http://
+http://
+http://
+etc... (should work or just directly put the proxy {ip:port}
