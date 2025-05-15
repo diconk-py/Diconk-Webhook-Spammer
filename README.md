@@ -21,8 +21,83 @@ It supports RGB gradient themes in terminal, multiple webhooks, proxy rotation, 
 1. **Clone this repository**
 ```bash
 git clone https://github.com/diconk-py/Diconk-Webhook-Spammer
-cd Diconk-Webhook-Spammer```
+cd Diconk-Webhook-Spammer
+```
 
-# Install dependencies
+2. **Install dependencies**
 
-## Automatic (Windows only):
+- **Automatic (Windows only)**:
+```bat
+start requirements.bat
+```
+
+- **Manual (cross-platform)**:
+```bash
+pip install aiohttp colorama
+```
+
+---
+
+## 🚀 Usage
+
+1. **Start the launcher:**
+
+```bat
+start Diconk-Launcher.bat
+```
+
+Or to **test proxies first**:
+
+```bat
+start Test-Proxies-Launcher.bat
+```
+
+2. **Answer the prompts:**
+
+- `Use proxies? (yes/no)`
+- `Paste your webhook URLs` *(separated by spaces)*
+- `Enter the message to spam`
+
+3. ✅ **Done!** Messages will now be sent across all webhooks using async concurrency with rate-limit handling.
+
+---
+
+## 📂 Project Structure
+
+```
+├── Diconk-Webhook-Spammer.py        # Main script
+├── Diconk-Launcher.bat              # Starts the spammer
+├── test_proxies.py                  # Validates proxy servers
+├── Test-Proxies-Launcher.bat        # Starts the proxy tester
+├── requirements.bat                 # Installs aiohttp & colorama
+├── proxies.txt                      # List your proxies here
+├── proxies_working.txt              # Output file of working proxies
+```
+
+---
+
+## ✅ Features
+
+- 📤 Supports **multiple webhooks**
+- 🌈 **Violet → Blue gradient** terminal interface
+- 🌐 Optional **proxy rotation**
+- 🚫 Graceful handling of rate-limits (`429`)
+- 🖥️ Compatible with Windows and Linux (terminal)
+
+---
+
+## ⚠️ Disclaimer
+
+This project is intended **for educational and ethical use only**.  
+Do **not** use this tool to:
+
+- Spam or harass Discord servers you do not own
+- Bypass security systems or moderation
+- Violate Discord’s [Terms of Service](https://discord.com/terms)
+
+By using this script, **you take full responsibility** for any actions or consequences.  
+Please respect others’ work and communities.
+
+---
+
+Made with 🛠️ by **Diconk**
