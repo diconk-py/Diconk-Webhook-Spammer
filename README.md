@@ -1,5 +1,5 @@
 # 💥 Diconk Webhook Spammer
-
+![diconk preview](https://github.com/user-attachments/assets/6f53e4f5-6851-4942-8974-6e818db7a7a4)
 **Diconk Webhook Spammer** is a high-speed, fully asynchronous Discord webhook spammer written in Python.  
 It supports RGB gradient themes in terminal, multiple webhooks, proxy rotation, and a clean user experience — all in style.
 
