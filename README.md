@@ -28,7 +28,7 @@ cd Diconk-Webhook-Spammer
 
 - **Automatic (Windows only)**:
 ```bat
-start requirements.bat
+start download requirements.bat
 ```
 
 - **Manual (cross-platform)**:
